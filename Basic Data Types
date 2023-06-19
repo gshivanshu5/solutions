@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cstdio>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    // Complete the code.
+    int val;
+    char ch;
+     double da;
+    
+     float f;
+     long int ld;
+     cout<< setprecision(9);
+    cin>>val >>ld >>ch >>f >>da ;
+    
+    cout<<val<<endl<<ld<<endl<<ch<<endl<<f<<endl<<da<<endl;
+    
+    return 0;
+}
